@@ -89,6 +89,16 @@ body {
 	background: #b20000;
 	color: #fff;
 	border: solid 3px #b20000;
+	font-weight: 600;
+}
+
+.c-btn {
+	margin-bottom: 1.5em;
+}
+
+.c-btn:hover {
+	background: #fefefe;
+	color: #b20000;
 }
 
 
