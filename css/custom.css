@@ -158,7 +158,7 @@ body {
 }
 
 .features .lead {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 22px;
 }
 
@@ -215,6 +215,10 @@ body {
 	height: 3px;
 	border: 0;
 	box-shadow: inset 0 3px 3px -3px rgba(248, 248, 248, 0.5);
+}
+
+.glyphicon-ok {
+	color: #3f4c6b;
 }
 
 .glyphicon-envelope {
