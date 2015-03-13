@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -16,19 +18,64 @@
   </head>
   <body>
 		<header>
-  		<nav class="navbar navbar-fixed-top" role="navigation">
+			<nav class="navbar navbar-white" role="navigation">
   			<div class="container">
   				<div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar icon-black"></span>
+              <span class="icon-bar icon-black"></span>
+              <span class="icon-bar icon-black"></span>
+            </button>
   					<a href="/" class="navbar-brand"><strong>Ops</strong>Tuts</a>
   				</div>
-          <ul class="nav navbar-nav pull-right nav-menu">
-            <li><a href="/signup/">Signup</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          </ul>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav pull-right nav-menu">
+              <li><a href="/signup/">Signup</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div>
   			</div>
   		</nav>
   	</header>
 
-		
+		<section class="features">
+			<div class="container">
+	      <div class="row">
+	        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+	        <div class="col-sm-10 col-md-10 col-lg-10">
+						<h2 class="text-center">The Server Support Plan</h2>
+						<p class="text-center">Get started now and our expert team will start support your servers right away.</p>
+					</div>
+					<div class="col-sm-1 col-md-1 col-lg-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-3 col-lg-3"></div>
+					<div class="col-sm-12 col-md-6 col-lg-6">
+						<ul class="signup-features">
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Unlimited small 30 min jobs for 1 server</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Detailed notes on every job</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>24 hour live chat & email support</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Proactive server support</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Monthly security scan</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Secure offsite backup</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>Security guarantee</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>8 hour average response time (same day guarantee)</li>
+							<li><i class="glyphicon glyphicon-ok signup-ok"></i>1 job request at a time</li>
+						</ul>
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-5 col-lg-5"></div>
+					<div class="col-sm-12 col-md-2 col-lg-2">
+						<p><a class="btn btn-lg d-btn center-block" href="/signup/">Signup</a></p>
+					</div>
+					<div class="col-sm-12 col-md-5 col-lg-5"></div>
+				</div>
+			</div>
+		</section>
+
+
 	</body>
 </html>

@@ -4,19 +4,23 @@ body {
 	min-height: 100%;
 }
 
+a {
+	color: #b20000;
+}
+
+.btn-primary {
+	background-color: #b20000;
+	border-color: #9a0000;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+	background-color: #b20000;
+	border-color: #9a0000;
+}
+
 .navbar-brand {
 	font-weight: 300;
 	font-variant: small-caps;
-}
-
-.navbar {
-  background-color: #3f4c6b;
-	background-image: linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -webkit-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -moz-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -ms-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -o-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-  border: none;
 }
 
 .navbar a {
@@ -37,16 +41,11 @@ body {
 	background-color: #b20000;
 }
 
-.navbar-contact {
+.navbar-white {
 	background-color: #fff;
-	background-image: linear-gradient(left, #fff, #fff, #fff);
-	background-image: -webkit-linear-gradient(left, #fff, #fff, #fff);
-	background-image: -moz-linear-gradient(left, #fff, #fff, #fff);
-	background-image: -ms-linear-gradient(left, #fff, #fff, #fff);
-	background-image: -o-linear-gradient(left, #fff, #fff, #fff);
 }
 
-.navbar-contact a {
+.navbar-white a {
 	color: #000;
 }
 
@@ -134,6 +133,19 @@ body {
 	color: #b20000;
 }
 
+.d-btn {
+	background: #b20000;
+	color: #fff;
+	margin-top: 1em;
+	font-weight: 600;
+	font-size: 2em;
+	border: solid 3px #b20000;
+}
+
+.d-btn:hover {
+	color: #fff;
+}
+
 
 .features .heading {
 	color:  #3f4c6b;
@@ -169,13 +181,12 @@ body {
 }
 
 .features {
-	background-color: #fefefe;
+	background-color: #fff;
 	color: #0e0e0e;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-weight: 300;
 }
-
 
 .features-arrow {
 	margin-left: auto;
@@ -285,6 +296,27 @@ body {
   color: #fefefe;
   text-align: center;
   padding-bottom: 0.1em;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+span.icon-bar.icon-black {
+	background-color: #000;
+}
+
+.signup-ok {
+	color: #55B818;
+	font-size: 1em;
+	padding-right: 0.5em;
+}
+
+.signup-features {
+	padding-top: 2em;
+	font-size: 1.2em;
+	list-style: none;
+	line-height: 1.6em;
 }
 
 /* Newsletter Form */

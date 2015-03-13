@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//cdn.helloify.com/js" data-helloify-account="0baf9cab-abbb-481f-b3f9-ce68cecea2d2" async></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -16,15 +19,23 @@
   </head>
   <body>
     <header>
-  		<nav class="navbar navbar-contact" role="navigation">
+			<nav class="navbar navbar-white" role="navigation">
   			<div class="container">
   				<div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar icon-black"></span>
+              <span class="icon-bar icon-black"></span>
+              <span class="icon-bar icon-black"></span>
+            </button>
   					<a href="/" class="navbar-brand"><strong>Ops</strong>Tuts</a>
   				</div>
-          <ul class="nav navbar-nav pull-right nav-menu">
-            <li><a href="/signup/">Signup</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          </ul>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav pull-right nav-menu">
+              <li><a href="/signup/">Signup</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div>
   			</div>
   		</nav>
   	</header>
@@ -63,26 +74,14 @@
               </div>
             </form>
           </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1">
-              <p class="question"><strong>Email us</strong></p>
-              <p class="answer"><a href="mailto:support@opstuts.com">support@opstuts.com</a></p>
-              <p class="question">Chat with the team</p>
-              <p class="answer">To chat with Liviu and the team email <a href="mailto:support@opstuts.com">support@opstuts.com</a> or use the live chat down the bottom.</p>
-            </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1">
+            <p class="question"><strong>Email us</strong></p>
+            <p class="answer"><a href="mailto:support@opstuts.com">support@opstuts.com</a></p>
+            <p class="question">Chat with the team</p>
+            <p class="answer">To chat with Liviu and the team email <a href="mailto:support@opstuts.com">support@opstuts.com</a> or use the live chat down the bottom.</p>
           </div>
         </div>
       </div>
     </section>
-
-    <footer class="contact-footer">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-sm-12 col-md-12 col-lg-12">
- 					<p>Footer</p>
- 				</div>
- 			</div>
- 		</div>
-  	</footer>
 	</body>
 </html>
