@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -15,40 +15,74 @@
     <![endif]-->
   </head>
   <body>
+    <header>
+  		<nav class="navbar navbar-contact" role="navigation">
+  			<div class="container">
+  				<div class="navbar-header">
+  					<a href="/" class="navbar-brand"><strong>Ops</strong>Tuts</a>
+  				</div>
+          <ul class="nav navbar-nav pull-right nav-menu">
+            <li><a href="/signup/">Signup</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+  			</div>
+  		</nav>
+  	</header>
+
     <section class="contact">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-8 col-lg-8">
+          <div class="col-sm-12 col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1">
+            <h2>Contact OpsTuts</h2>
+            <p class="answer">Please complete this form to contact our team.</p>
+            <p class="answer">You can also chat with a OpsTuts team member live, by using the chat window in the bottom right hand corner of this page.</p>
+
             <form class="form-horizontal" role="form" method="POST" action="//formspree.io/support@opstuts.com">
               <input type="text" name="_gotcha" style="display:none" />
               <input type="hidden" name="_next" value="//opstuts.com/contact/thanks.html" />
               <input type="hidden" name="_subject" value="OpsTuts support request" />
               <div class="form-group">
-                  <div class="col-sm-10">
+                  <div class="col-sm-11">
                       <input type="text" class="form-control" id="name" name="name" placeholder="First Name *" value="" />
                   </div>
               </div>
               <div class="form-group">
-                  <div class="col-sm-10">
+                  <div class="col-sm-11">
                       <input type="email" class="form-control" id="email" name="_replyto" placeholder="Email *" value="" />
                   </div>
               </div>
               <div class="form-group">
-                  <div class="col-sm-10">
+                  <div class="col-sm-11">
                       <textarea class="form-control" rows="4" name="message" placeholder="Message *"></textarea>
                   </div>
               </div>
               <div class="form-group">
-                  <div class="col-sm-10">
-                      <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                  <div class="col-sm-11">
+                      <input id="submit" name="submit" type="submit" value="Send Message" class="btn btn-lg btn-primary btn-block" />
                   </div>
               </div>
             </form>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1">
+              <p class="question"><strong>Email us</strong></p>
+              <p class="answer"><a href="mailto:support@opstuts.com">support@opstuts.com</a></p>
+              <p class="question">Chat with the team</p>
+              <p class="answer">To chat with Liviu and the team email <a href="mailto:support@opstuts.com">support@opstuts.com</a> or use the live chat down the bottom.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-
+    <footer class="contact-footer">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-sm-12 col-md-12 col-lg-12">
+ 					<p>Footer</p>
+ 				</div>
+ 			</div>
+ 		</div>
+  	</footer>
 	</body>
 </html>

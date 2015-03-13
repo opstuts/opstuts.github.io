@@ -28,6 +28,28 @@ body {
   color: #b20000;
 }
 
+.nav-menu {
+	font-size: 0.6em;
+}
+
+.nav-menu li a:hover {
+	color: #fff;
+	background-color: #b20000;
+}
+
+.navbar-contact {
+	background-color: #fff;
+	background-image: linear-gradient(left, #fff, #fff, #fff);
+	background-image: -webkit-linear-gradient(left, #fff, #fff, #fff);
+	background-image: -moz-linear-gradient(left, #fff, #fff, #fff);
+	background-image: -ms-linear-gradient(left, #fff, #fff, #fff);
+	background-image: -o-linear-gradient(left, #fff, #fff, #fff);
+}
+
+.navbar-contact a {
+	color: #000;
+}
+
 .welcome {
 	background-color: #3f4c6b;
 	background-image: linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
@@ -37,6 +59,19 @@ body {
 	background-image: -o-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
 	padding-top: 120px;
 	padding-bottom: 80px;
+}
+
+.contact {
+	padding-top: 80px;
+}
+
+.contact h2 {
+	font-weight: 600;
+}
+
+.contact form {
+	font-weight: 300;
+	padding-top: 25px;
 }
 
 .heading {
@@ -168,7 +203,7 @@ body {
   padding-bottom: 1em;
 }
 
-.features .question {
+.question {
   font-weight: 600;
   font-size: 15px;
   margin-top: 15px;
@@ -176,7 +211,7 @@ body {
   text-align: justify;
 }
 
-.features .answer {
+.answer {
   font-weight: 300;
   font-size: 15px;
   line-height: 22px;
@@ -204,6 +239,18 @@ body {
 
 .footer p {
 	color: #fefefe;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.contact-footer {
+	padding-top: 5em;
+	min-height: 50px;
+	background-color: #fff;
+}
+
+.contact-footer p {
+	color: #000;
 	text-align: center;
 	margin-top: 15px;
 }
