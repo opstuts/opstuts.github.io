@@ -63,11 +63,6 @@ a {
 
 .welcome {
 	background-color: #3f4c6b;
-	background-image: linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -webkit-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -moz-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -ms-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
-	background-image: -o-linear-gradient(left, #2c354a, #3f4c6b, #2c354a);
 	padding-top: 120px;
 	padding-bottom: 80px;
 }
