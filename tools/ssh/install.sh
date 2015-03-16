@@ -1,9 +1,9 @@
-if [ ! -d $HOME/.ssh ]
+if [ ! -d $HOME/.ssh ]; then
   mkdir -p $HOME/.ssh
   chmod 700 $HOME/.ssh
 fi
 
-if [ ! -f $HOME/.ssh/authorized_keys ]
+if [ ! -f $HOME/.ssh/authorized_keys ]; then
   touch $HOME/.ssh/authorized_keys
   chmod 600 $HOME/.ssh/authorized_keys
 fi
