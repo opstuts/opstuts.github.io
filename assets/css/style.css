@@ -250,9 +250,23 @@ a {
 }
 
 .footer {
-	min-height: 50px;
+	min-height: 30px;
 	background-color: #3f4c6b;
+}
 
+.footer a {
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer-links {
+	color: #fefefe;
+	margin-top: 12px;
 }
 
 .footer p {
@@ -275,6 +289,37 @@ a {
 
 .signup-btn {
 	padding-top: 2em;
+}
+
+.currency {
+	color: #b20000;
+	font-size: 3em;
+	font-weight: 600;
+	margin-right: 0.2em;
+}
+
+.pricing {
+	color: #b20000;
+	font-size: 4.5em;
+	font-weight: 600;
+}
+
+.pricing-details {
+	font-weight: 300;
+	line-height: 10px;
+}
+
+.save-subscription {
+	margin-top: 1.5em;
+}
+
+.one-time-job-h {
+	margin-bottom: 2em;
+}
+
+.one-time-job-p {
+	line-height: 25px;
+	margin-bottom: 1.5em;
 }
 
 .sep {
